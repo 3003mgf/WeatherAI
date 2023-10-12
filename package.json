@@ -1,0 +1,37 @@
+{
+  "name": "weather-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.8.0-rc.2",
+    "@apollo/experimental-nextjs-app-support": "^0.4.3",
+    "@headlessui/tailwindcss": "^0.2.0",
+    "@heroicons/react": "^2.0.18",
+    "@tremor/react": "^3.8.2",
+    "country-state-city": "^3.2.1",
+    "graphql": "^16.8.1",
+    "next": "^13.5.4",
+    "openai": "^4.12.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-loader-spinner": "^5.4.5",
+    "react-select": "^5.7.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.5-canary.4",
+    "postcss": "^8",
+    "tailwindcss": "^3",
+    "typescript": "^5"
+  }
+}
